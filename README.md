@@ -7,13 +7,14 @@ Diamond valuation is a complex process influenced by multiple factors, most prom
 
 ## 🛠️ Technologies Used
 * **Language:** Python
+* **Environment:** Jupyter Notebook
 * **Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
 * **Techniques:** Data Preprocessing, Exploratory Data Analysis (EDA), Regression Modeling, Feature Engineering
 
 ## 📂 Repository Structure
+* `Diamond_Price_Prediction.ipynb`: The main Jupyter Notebook containing the full pipeline—from exploratory data analysis (EDA) and data preprocessing to model training and evaluation.
 * `/data`: Contains the original `diamonds.csv` and the cleaned `Preprocessed_datasets.csv`.
-* `/docs`: Contains the final academic project report detailing our methodology and model evaluations.
-* `model.ipynb`: (Update this to the actual name of your code file) The Jupyter Notebook containing the data pipeline and machine learning models.
+* `/docs`: Contains the comprehensive academic project report and the final presentation slides detailing our methodology and model evaluations.
 
 ## 📊 Dataset
 The dataset includes features such as:
@@ -23,8 +24,9 @@ The dataset includes features such as:
 
 ## 💡 Key Results & Methodology
 1. **Data Preprocessing:** Handled categorical variables using encoding and scaled numerical features to optimize model performance.
-2. **Modeling:** (Add a 1-sentence summary of the best model you used, e.g., "Trained and evaluated multiple regression models, with Random Forest achieving the highest R2 score.")
-3. **Conclusion:** Identified Carat and Dimensions as the most significant predictors of a diamond's market price.
+2. **Exploratory Data Analysis (EDA):** Visualized feature distributions and correlation matrices to identify relationships between the "Four Cs" and the price.
+3. **Modeling:** Trained and evaluated multiple regression models to predict prices with high accuracy, optimizing hyperparameters for the best-performing algorithm.
+4. **Conclusion:** Identified Carat and dimensional measurements as the most significant predictors of a diamond's market price.
 
 ---
 *Group Members: Najla Almazyad, Jood Alkhrashi, Sara Aloqiel, Nouf Almansour*
